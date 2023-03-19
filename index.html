@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting Oii</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="top-head">
+        <p>SAKSIKAN PERTANDINGAN HARI INI PUKUL 17.00,<b> PDIP UNITED VS PSI FC</b></p>
+    </div>
+
+    <div class="navbar">        
+        <a href="home.html"><img src="image/Fifa.png"  height="80px"></a>
+        <a href="home.html">HOME</a>
+        <a href="berita.html">BERITA</a>
+        <a href="tim.html">TIM</a>
+        <a href="jadwal.html">JADWAL</a>
+        <a href="event.html">EVENT</a>
+        <a href="index.html">VOTE</a>
+    </div>
+    
+    <div class="content">
+        <div class="sidebar">
+            <h1 class="sidebar-head">VOTE</h1>
+            <a href="pl.html">PREMIERE LEAGUE</a>
+            <a href="laliga.html">LA LIGA</a>
+            <a href="index.html">BRI LIGA 1</a>
+            <a href="Lone.html">LEAGUE ONE</a>
+            <a href="sa.html">SERIE A</a>
+            <a href="bl.html">BUNDESLIGA</a>
+        </div>
+        
+        <form  action="#" class="container">
+            <div class="card" >
+                <div class="hdcard">
+                    <h1 class="btitle" style="color: #102D4D;">
+                        VOTE PEMAIN <hr size="5" color="red" width="40px"></h1>
+                </div>
+                <div class="triplecont">
+                    <label for="messi" class="profile-card ">
+                        <img src="image/opsi1.png"  class="responsive">
+                        <div class="detailcont">
+                            <h1 class="title" style="color:#102D4D">LIONEL MESSI</h1>
+                            <h2 class="stitle" style="opacity: 80%;">PERSIJA JAKARTA</h2><br>
+                            <input type="radio" id="messi" name="pemain" value="Messi">
+                            VOTE
+                            <div class="big"></div>
+                        </div>
+                    </label>
+                    <label for="ronaldo" class="profile-card">
+                        <img src="image/opsi2.png" class="responsive" >
+                        <div class="detailcont" action="#">
+                            <h1 class="title" style="color:#102D4D">CRISTIANO RONALDO</h1>
+                            <h2 class="stitle" style="opacity: 80%;">PERSIB BANDUNG</h2><br>
+                            <input class="checkmark" type="radio" id="ronaldo" name="pemain" value="Ronaldo">
+                            VOTE
+                        </div>
+                    </label>
+                    <label for="jokowi" class="profile-card">
+                        <img src="image/opsi3.png" class="responsive">
+                        <div class="detailcont">
+                            <h1 class="title"  style="color:#102D4D">JOKOWI DODO</h1>
+                            <h2 class="stitle" style="opacity: 80%;">PDIP UNITED</h2><br>
+                            <input type="radio" id="jokowi" name="pemain" value="Jokowi">
+                            VOTE
+                        </div>
+                    </label>
+                </div> 
+                
+            </div>
+            <div class="card">
+                <div class="hdcard">
+                    <h1 class="btitle" style="color: #102D4D;">
+                        PARTISIPAN <hr size="5" color="red" width="40px"></h1>
+                </div>
+    
+                <div class="formbox">
+                    <label class="hdlabel" for="nama">NAMA</label><br>
+                    <input type="text" name="nama" id="nama" placeholder="Masukkan nama anda">
+    
+                    <label class="hdlabel" for="id">ID PARTISIPAN</label><br>
+                    <input type="text" name="id" id="id" placeholder="ID Anda">
+    
+                    <label class="hdlabel" for="role">ROLE</label><br>
+                    <select name="role" id="">
+                        <option value="Pengamat Sepakbola">Pengamat Sepakbola</option>
+                        <option value="Pelatih">Pelatih</option>
+                        <option value="Pemain">Pemain</option>
+                        <option value="Jurnalis">Jurnalis</option>
+                        <option value="Staff">Staff</option>
+                    </select>
+    
+                    <input type="checkbox" name="agreement" style="margin-right: 6px;" id="agreement" value="Setuju">
+                    <label for="agreement" style="color: #102D4D;">Saya tidak disuap siapa pun</label><br><br>
+    
+                    <input class="btn" type="submit" value="KIRIM" id="kirim">
+                    
+                </div>
+            </div>
+    
+        </form>
+    
+    </div>
+
+    <footer>  
+        <a href="home.html"><img src="image/Fifa.png"  height="60px"></a>
+        <p>Copyright &copy; 2023 FIFA.com</p>
+    </footer>
+
+    
+</div>
+</body>
+</html>
